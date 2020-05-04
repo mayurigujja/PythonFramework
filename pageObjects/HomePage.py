@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
 
+from pageObjects.CheckOutPage import CheckOutPage
+
 
 class HomePage:
 
@@ -10,4 +12,8 @@ class HomePage:
 
     def shopItems(self):
         #  self.driver.find_element_by_link_text("Shop").click()
-        return self.driver.find_element(*HomePage.shopLink)
+        self.driver.find_element(*HomePage.shopLink).click()
+        # Instead of creating checkout object in the teste2e(test case), we are creating it in the method that
+        # clicks the shoplink, calls and returns the checkoutpage object
+        checkoutpage = CheckOutPage(self.driver)
+        return checkoutpage
