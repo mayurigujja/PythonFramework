@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5913b3b9-d626-4049-b36a-be2f07990946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/HomePageData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utilities/BaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/BaseClass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/CheckOutPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/CheckOutPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pageObjects/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/HomePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_e2e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_homepage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_homepage.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_e2e.py" />
   </component>
   <component name="RunManager">
     <configuration name="test_homepage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -47,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_homepage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_e2e.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,33 +70,49 @@
       <option name="presentableId" value="Default" />
       <updated>1587397015113</updated>
     </task>
+    <task id="LOCAL-00001" summary="New TestCase - HomePage">
+      <created>1588620221340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588620221340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New TestCase - HomePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="New TestCase - HomePage" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588620002134">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588800949150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588620002134" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588620000983">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588800949150" />
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1588620217911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588620000983" />
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom" timestamp="1588620036967">
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588620217911" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588734089530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588620036967" />
-    <state width="1308" height="155" key="GridCell.Tab.0.center" timestamp="1588620036967">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588734089530" />
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1588734099633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588620036967" />
-    <state width="1308" height="155" key="GridCell.Tab.0.left" timestamp="1588620036967">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588734099633" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1588734099632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588620036967" />
-    <state width="1308" height="155" key="GridCell.Tab.0.right" timestamp="1588620036967">
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588734099632" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1588734099632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1308" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588620036967" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588734099632" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1588734099633">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588734099633" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587674085420">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

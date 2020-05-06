@@ -14,6 +14,7 @@ from pageObjects.HomePage import HomePage
 class TestOne(BaseClass):
     # self is necessary for the method if the method is declared inside a class
     def test_e2e(self):
+        log = self.getLogger()
         print("HI")
         # set up fixture is passed with request parameter and the driver is assigned to the request
         # In order to access the driver of the other class, use self.driver
@@ -38,6 +39,7 @@ class TestOne(BaseClass):
         # VerifyPresence method is declared in the base class and used everywhere the wait is used
         self.verifyPresence(By.CSS_SELECTOR, "button[class*='btn-success']")
         self.driver.find_element_by_css_selector("button[class*='btn-success']").click()
+        log.info("selecting india country")
         self.driver.find_element_by_id("country").send_keys("ind")
         self.verifyPresence(By.CLASS_NAME, "suggestions")
         self.driver.find_element_by_xpath("//a[text()='India']").click()
