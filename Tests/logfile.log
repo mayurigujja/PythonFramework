@@ -1,0 +1,18 @@
+2020-05-06 14:45:26,457 :DEBUG :test_e2e :debug stmt
+2020-05-06 14:45:26,457 :INFO :test_e2e :information
+2020-05-06 14:45:26,457 :WARNING :test_e2e :warning
+2020-05-06 14:45:26,457 :ERROR :test_e2e :error
+2020-05-06 14:45:26,457 :CRITICAL :test_e2e :critical error
+2020-05-06 14:45:29,066 :INFO :test_e2e :selecting india country
+2020-05-07 18:08:30,030 :DEBUG :test_e2e :debug stmt
+2020-05-07 18:08:30,030 :INFO :test_e2e :information
+2020-05-07 18:08:30,030 :WARNING :test_e2e :warning
+2020-05-07 18:08:30,031 :ERROR :test_e2e :error
+2020-05-07 18:08:30,031 :CRITICAL :test_e2e :critical error
+2020-05-07 18:08:33,605 :INFO :test_e2e :selecting india country
+2020-05-11 12:53:33,694 :DEBUG :test_e2e :debug stmt
+2020-05-11 12:53:33,694 :INFO :test_e2e :information
+2020-05-11 12:53:33,695 :WARNING :test_e2e :warning
+2020-05-11 12:53:33,695 :ERROR :test_e2e :error
+2020-05-11 12:53:33,695 :CRITICAL :test_e2e :critical error
+2020-05-11 12:53:36,612 :INFO :test_e2e :selecting india country

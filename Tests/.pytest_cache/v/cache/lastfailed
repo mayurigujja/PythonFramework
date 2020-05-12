@@ -1,0 +1,5 @@
+{
+  "test_e2e.py::TestOne::test_e2e": true,
+  "test_homepage.py::TestHomePage::test_homepage[getData0]": true,
+  "test_homepage.py::TestHomePage::test_homepage[getData1]": true
+}

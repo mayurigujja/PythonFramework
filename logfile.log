@@ -1,0 +1,6 @@
+2020-05-11 12:41:53,474 :DEBUG :test_e2e :debug stmt
+2020-05-11 12:41:53,474 :INFO :test_e2e :information
+2020-05-11 12:41:53,475 :WARNING :test_e2e :warning
+2020-05-11 12:41:53,475 :ERROR :test_e2e :error
+2020-05-11 12:41:53,475 :CRITICAL :test_e2e :critical error
+2020-05-11 12:41:56,270 :INFO :test_e2e :selecting india country

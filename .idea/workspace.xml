@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5913b3b9-d626-4049-b36a-be2f07990946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/HomePageData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utilities/BaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utilities/BaseClass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_e2e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_e2e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_homepage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +35,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test_e2e.py" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mayurigu\Documents\GitHub\PythonFramework\Tests" />
+      <recent name="C:\Users\mayurigu\Documents\GitHub\PythonFramework\Tests\Assets" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="test_homepage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="test_e2e" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +54,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_e2e.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\mayurigu\Documents\GitHub\PythonFramework\Tests\Assets\test_e2e.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,22 +102,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588734089530" />
-    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1588734099633">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom" timestamp="1588801204625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588734099633" />
-    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1588734099632">
+    <state width="1345" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588801204625" />
+    <state width="1345" height="178" key="GridCell.Tab.0.center" timestamp="1588801204625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588734099632" />
-    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1588734099632">
+    <state width="1345" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588801204625" />
+    <state width="1345" height="178" key="GridCell.Tab.0.left" timestamp="1588801204625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588734099632" />
-    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1588734099633">
+    <state width="1345" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588801204625" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right" timestamp="1588801204625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588734099633" />
+    <state width="1345" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588801204625" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587674085420">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

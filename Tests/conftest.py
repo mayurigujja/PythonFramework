@@ -29,8 +29,8 @@ def setup(request):
     driver.maximize_window()
     # Assigning the local driver to the class driver so the driver can be usedx in the test cases
     request.cls.driver = driver
-    # yield
-    # driver.close()
+    yield
+    driver.close()
 
 
 @pytest.fixture(params=HomePageTestData.testdata)
